@@ -1,0 +1,39 @@
+ion-header{
+    position: absolute;
+}
+ion-toolbar{
+    --backgroung: transparent;
+    --opacity: 0%
+}
+ion-content{
+   --background: url('/assets/images/login1.jpg') no-repeat center/cover fixed;
+
+    h4{
+        color: rgb(109, 41, 172);
+    }
+
+    .social{
+        display: flex;
+        margin: 0 auto;
+        width: 30%;
+      }
+
+      ion-button{
+          display: block;
+          margin: 10px 0 10px auto;
+      }
+      p{
+          text-align: center;
+          margin-bottom: 10px;
+      }
+
+      ion-card{
+          margin-top: 80px;
+      }
+
+      .compte{
+          display: block;
+          margin: 0 auto;
+          width: 70%;
+      }
+}

@@ -1,20 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+<ion-content fullscreen class="ion-padding" scroll-y="false">  
+  <ion-slides>  
+  
+    <ion-slide>  
+      <img src="assets/images/logo.png"/>  
+      <h2>BIENVENUE SUR <b>STREET TRAP MUSIC</b></h2>  
+      <p>Balayez<br>vers la gauche.</p> 
+      <ion-img src="assets/images/continue.png"></ion-img> 
+    </ion-slide>  
+  
+    <ion-slide>  
+      <img src="assets/images/logo1.png"/>  
+      <h2>DEMARRER</h2>  
+      <p>
+        <ion-button color="primary" [routerLink]="['/login']">CONNEXION</ion-button>
+        <ion-button color="dark" [routerLink]="['/register']">CREE UN COMPTE</ion-button>
+        ou crée un compte avec
+      </p>
+      <div class="social">
+        <ion-img src="assets/images/facebook.png"></ion-img>
+        <ion-img src="assets/images/google.png"></ion-img>
+      </div>  
+    </ion-slide>  
+  
+  </ion-slides>  
+</ion-content>  
